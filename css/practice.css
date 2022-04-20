@@ -1,0 +1,29 @@
+.practice_section {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.practice_section h3 {
+  font-size: 25px;
+  padding: 30px 0px 30px 0px;
+}
+
+.practice_section p {
+  padding-bottom: 30px;
+}
+
+.img_practice img {
+  width: 420px;
+}
+
+@media (min-width: 0px) and (max-width: 414px) {
+  .practice_section p {
+    font-size: 10px;
+    padding-bottom: 50px;
+  }
+
+  .img_practice img {
+    width: 320px;
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,30 @@
+.about_section {
+  display: flexbox;
+  justify-content: center;
+  background: #f3f6fb;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.about_section h1 {
+  font-size: 32px;
+  padding-top: 45px;
+}
+
+p.hello {
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+}
+
+h5.sub_heading {
+  padding-top: 35px;
+  font-size: 20px;
+}
+
+.about_section p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}

@@ -1,0 +1,27 @@
+.pic img {
+  width: 400px;
+  height: 500px;
+  padding: 10px 7px 20px 7px;
+}
+
+.pic {
+  padding-bottom: 30px;
+}
+
+.team_section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 414px) {
+  .team_section {
+    flex-direction: column;
+  }
+
+  .pic img {
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+  }
+}
